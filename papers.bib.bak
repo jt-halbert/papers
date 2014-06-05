@@ -1,0 +1,1393 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@InProceedings{4086151,
+  Title                    = {Characterization of Scientific Workloads on Systems with Multi-Core Processors},
+  Author                   = {Alam, S.R. and Barrett, R.F. and Kuehn, J.A. and Roth, P.C. and Vetter, J.S.},
+  Booktitle                = {Workload Characterization, 2006 IEEE International Symposium on},
+  Year                     = {2006},
+  Month                    = {Oct},
+  Pages                    = {225-236},
+
+  Abstract                 = {Multi-core processors are planned for virtually all next-generation HPC systems. In a preliminary evaluation of AMD Opteron Dual-Core processor systems, we investigated the scaling behavior of a set of micro-benchmarks, kernels, and applications. In addition, we evaluated a number of processor affinity techniques for managing memory placement on these multi-core systems. We discovered that an appropriate selection of MPI task and memory placement schemes can result in over 25% performance improvement for key scientific calculations. We collected detailed performance data for several large-scale scientific applications. Analyses of the application performance results confirmed our micro-benchmark and scaling results},
+  Doi                      = {10.1109/IISWC.2006.302747},
+  File                     = {:4086151.pdf:PDF},
+  Keywords                 = {message passing;multiprocessing systems;storage management;AMD Opteron Dual-Core processor systems;MPI task;all next-generation HPC systems;memory placement management;multicore processors;multicore systems;processor affinity;scientific workloads;Application software;Bandwidth;Concurrent computing;Government;Kernel;Memory management;Multicore processing;Parallel processing;Scientific computing;Sockets;AMD Opteron;Multi-core processor;Performance characterization;micro-benchmarking;scientific applications},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@Book{national2013Frontiers,
+  Title                    = {Frontiers in Massive Data Analysis},
+  Author                   = {Committee on the Analysis of Massive Data; Committee on Applied and Theoretical Statistics; Board on Mathematical Sciences and Their Applications; Division on Engineering and Physical Sciences; National Research Council},
+  Publisher                = {The National Academies Press},
+  Year                     = {2013},
+
+  File                     = {:18374.pdf:PDF},
+  ISBN                     = {9780309287784},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://www.nap.edu/openbook.php?record_id=18374}
+}
+
+@TechReport{Asanovic2006,
+  Title                    = {The Landscape of Parallel Computing Research: A View from Berkeley},
+  Author                   = {Asanovic, Krste and Bodik, Ras and Catanzaro, Bryan Christopher and Gebis, Joseph James and Husbands, Parry and Keutzer, Kurt and Patterson, David A. and Plishker, William Lester and Shalf, John and Williams, Samuel Webb and Yelick, Katherine A.},
+  Institution              = {EECS Department, University of California, Berkeley},
+  Year                     = {2006},
+  Month                    = dec,
+  Number                   = {UCB/EECS-2006-183},
+
+  Abstract                 = {The recent switch to parallel microprocessors is a milestone in the history of computing. Industry has laid out a roadmap for multicore designs that preserves the programming paradigm of the past via binary compatibility and cache coherence. Conventional wisdom is now to double the number of cores on a chip with each silicon generation.
+
+A multidisciplinary group of Berkeley researchers met nearly two years to discuss this change. Our view is that this evolutionary approach to parallel hardware and software may work from 2 or 8 processor systems, but is likely to face diminishing returns as 16 and 32 processor systems are realized, just as returns fell with greater instruction-level parallelism.
+
+We believe that much can be learned by examining the success of parallelism at the extremes of the computing spectrum, namely embedded computing and high performance computing. This led us to frame the parallel landscape with seven questions, and to recommend the following:
+<ul>
+<li>The overarching goal should be to make it easy to write programs that execute efficiently on highly parallel computing systems
+<li>The target should be 1000s of cores per chip, as these chips are built from processing elements that are the most efficient in MIPS (Million Instructions per Second) per watt, MIPS per area of silicon, and MIPS per development dollar.
+<li>Instead of traditional benchmarks, use 13 "Dwarfs" to design and evaluate parallel programming models and architectures. (A dwarf is an algorithmic method that captures a pattern of computation and communication.)
+<li>"Autotuners" should play a larger role than conventional compilers in translating parallel programs.
+<li>To maximize programmer productivity, future programming models must be more human-centric than the conventional focus on hardware or applications. 
+<li>To be successful, programming models should be independent of the number of processors.
+<li>To maximize application efficiency, programming models should support a wide range of data types and successful models of parallelism: task-level parallelism, word-level parallelism, and bit-level parallelism.
+<li>Architects should not include features that significantly affect performance or energy if programmers cannot accurately measure their impact via performance counters and energy counters.
+<li>Traditional operating systems will be deconstructed and operating system functionality will be orchestrated using libraries and virtual machines.
+<li>To explore the design space rapidly, use system emulators based on Field Programmable Gate Arrays (FPGAs) that are highly scalable and low cost.
+</ul>
+
+Since real world applications are naturally parallel and hardware is naturally parallel, what we need is a programming model, system software, and a supporting architecture that are naturally parallel. Researchers have the rare opportunity to re-invent these cornerstones of computing, provided they simplify the efficient programming of highly parallel systems.},
+  File                     = {:Asanovic2006.pdf:PDF},
+  Url                      = {http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.html}
+}
+
+@Article{Asanovic:2009:VPC:1562764.1562783,
+  Title                    = {A View of the Parallel Computing Landscape},
+  Author                   = {Asanovic, Krste and Bodik, Rastislav and Demmel, James and Keaveny, Tony and Keutzer, Kurt and Kubiatowicz, John and Morgan, Nelson and Patterson, David and Sen, Koushik and Wawrzynek, John and Wessel, David and Yelick, Katherine},
+  Journal                  = {Commun. ACM},
+  Year                     = {2009},
+
+  Month                    = oct,
+  Number                   = {10},
+  Pages                    = {56--67},
+  Volume                   = {52},
+
+  Acmid                    = {1562783},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/1562764.1562783},
+  File                     = {:p56-asanovic.pdf:PDF},
+  ISSN                     = {0001-0782},
+  Issue_date               = {October 2009},
+  Numpages                 = {12},
+  Owner                    = {jthalbert},
+  Publisher                = {ACM},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://doi.acm.org/10.1145/1562764.1562783}
+}
+
+@InCollection{raey,
+  Title                    = {HPC on Competitive Cloud Resources},
+  Author                   = {Bientinesi, Paolo and Iakymchuk, Roman and Napper, Jeff},
+  Booktitle                = {Handbook of Cloud Computing},
+  Publisher                = {Springer US},
+  Year                     = {2010},
+  Editor                   = {Furht, Borko and Escalante, Armando},
+  Pages                    = {493-516},
+
+  Doi                      = {10.1007/978-1-4419-6524-0_21},
+  ISBN                     = {978-1-4419-6523-3},
+  Language                 = {English},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://dx.doi.org/10.1007/978-1-4419-6524-0_21}
+}
+
+@InProceedings{Bodik2010,
+  Title                    = {Characterizing, Modeling, and Generating Workload Spikes for Stateful Services},
+  Author                   = {Peter Bodík and Armando Fox and Michael J. Franklin and Michael I. Jordan and David A. Patterson and EECS Department and UC Berkeley and Berkeley and CA and USA},
+  Year                     = {2010},
+
+  Abstract                 = {they ramp up, how they peak, etc.—and testing the service
+Evaluating the resiliency of stateful Internet services to sig- under such scenarios.
+},
+  File                     = {:Bodik2010.pdf:PDF},
+  Review                   = {Characterizing, Modeling, and Generating
+Workload Spikes for Stateful Services
+
+Peter Bodík, Armando Fox, Michael J. Franklin, Michael I. Jordan, David A. Patterson
+EECS Department, UC Berkeley, Berkeley, CA, USA
+
+{bodikp,fox,franklin,jordan,patterson}@cs.berkeley.edu
+
+ABSTRACT they ramp up, how they peak, etc.—and testing the service
+Evaluating the resiliency of stateful Internet services to sig- under such scenarios.
+
+niﬁcant workload spikes and data hotspots requires realistic Workload modeling and synthesis has always been impor-
+
+workload traces that are usually very diﬃcult to obtain. A tant in systems R&D for stress-testing new production sys-
+
+popular approach is to create a workload model and gen- tems, as well as in academic research because of the diﬃculty
+
+erate synthetic workload, however, there exists no charac- of obtaining real commercial workload traces that might re-
+
+terization and model of stateful spikes. In this paper we veal conﬁdential company information. The challenge of un-
+
+analyze ﬁve workload and data spikes and ﬁnd that they derstanding and modeling spikes and the need to synthesize
+
+vary signiﬁcantly in many important aspects such as steep- realistic “spiky” workloads motivate the present work.
+
+ness, magnitude, duration, and spatial locality. We propose The term “spike,” or “volume spike,” is commonly used
+
+and validate a model of stateful spikes that allows us to to refer to an unexpected sustained increase in aggregate
+
+synthesize volume and data spikes and could thus be used workload volume. In the case of stateless servers such as
+
+by both cloud computing users and providers to stress-test Web servers, such spikes can in principle be “absorbed” by a
+
+their infrastructure. combination of adding more servers and using a combination
+of L7 switches, DNS, and geo-replication to redirect load
+
+Categories and Subject Descriptors to the new servers. Much work has focused on using bothreactive and proactive approaches to do this [26].
+H.3.5 [Online Information Services]: Web-based services However, Internet-scale data-intensive sites—social net-
+
+working (Facebook, Twitter), reference content (Wikipedia),
+
+General Terms and search engines (Google)—must also deal with data spikes:
+a sudden increase in demand for certain objects, or more
+
+Measurement generally, a pronounced change in the distribution of object
+popularity on the site. Even data spikes that are not ac-
+
+1. INTRODUCTION companied by an overall surge in volume may have severe
+A public-facing Internet-scale service available to tens of eﬀects on the system internally. For example, consider a par-
+
+millions of users can experience extremely rapid and unex- titioned database in which all objects are equally popular,
+
+pected shifts in workload patterns. Handling such spikes but a sudden event causes 90% of all queries to go to one or
+
+is extremely challenging. Provisioning for them in advance two objects even though the total request volume does not
+
+is analogous to preparing for earthquakes: while designing increase.
+
+for a magnitude-9 earthquake is theoretically possible, it is Although volume spikes and data spikes can arise inde-
+
+economically infeasible because such an event is very un- pendently, it is becoming increasingly common for the two
+
+likely. Instead, engineers use statistical characterizations phenomena to occur together. For example, at the peak of
+
+of earthquakes—distributions of magnitude, frequency, and the spike following Michael Jackson’s death in 2009, 22%
+
+phase—to design buildings that can withstand most earth- of all tweets on Twitter mentioned Michael Jackson [7] (the
+
+quakes. Similarly, while overprovisioning an Internet service largest Twitter spike in 2009), 15% of traﬃc to Wikipedia
+
+to handle the largest possible spike is infeasible, pay-as-you- was directed at the article about Michael Jackson (see Sec-
+
+go cloud computing oﬀers the option to quickly add capacity tion 4), and Google initially mistook it for an automated
+
+to deal with spikes. However, exploiting this feature requires attack [5]. The second and third most signiﬁcant spikes on
+
+understanding the nature of unexpected events—how fast Twitter were Kanye West and the Oscars with 14.3% and
+13.1% of all tweets [7]. During the inauguration of Presi-
+dent Obama, the number of tweets per second was ﬁve times
+higher than on a regular day [3].
+
+Permission to make digital or hard copies of all or part of this work for Such events are becoming more regular and larger in scale.
+personal or classroom use is granted without fee provided that copies are They pose new challenges beyond those of modeling and
+not made or distributed for proﬁt or commercial advantage and that copies stress-testing volume spikes for two reasons. First, as men-
+bear this notice and the full citation on the ﬁrst page. To copy otherwise, to tioned previously, the eﬀect of a data spike may be se-
+republish, to post on servers or to redistribute to lists, requires prior speciﬁc
+permission and/or a fee. vere even if the aggregate workload volume does not change
+
+SoCC’10, June 10–11, 2010, Indianapolis, Indiana, USA. much. Second, unlike stateless systems, simply adding more
+Copyright 2010 ACM 978-1-4503-0036-0/10/06 ...$10.00.
+
+}
+}
+
+@Article{Chandrasekaran26032013,
+  Title                    = {Computational and statistical tradeoffs via convex relaxation},
+  Author                   = {Chandrasekaran, Venkat and Jordan, Michael I.},
+  Journal                  = {Proceedings of the National Academy of Sciences},
+  Year                     = {2013},
+  Number                   = {13},
+  Pages                    = {E1181-E1190},
+  Volume                   = {110},
+
+  Abstract                 = {Modern massive datasets create a fundamental problem at the intersection of the computational and statistical sciences: how to provide guarantees on the quality of statistical inference given bounds on computational resources, such as time or space. Our approach to this problem is to define a notion of “algorithmic weakening,” in which a hierarchy of algorithms is ordered by both computational efficiency and statistical efficiency, allowing the growing strength of the data at scale to be traded off against the need for sophisticated processing. We illustrate this approach in the setting of denoising problems, using convex relaxation as the core inferential tool. Hierarchies of convex relaxations have been widely used in theoretical computer science to yield tractable approximation algorithms to many computationally intractable tasks. In the current paper, we show how to endow such hierarchies with a statistical characterization and thereby obtain concrete tradeoffs relating algorithmic runtime to amount of data.},
+  Doi                      = {10.1073/pnas.1302293110},
+  Eprint                   = {http://www.pnas.org/content/110/13/E1181.full.pdf+html},
+  File                     = {:Chandrasekaran26032013.pdf:PDF;:Chandrasekaran26032013.pdf:PDF},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://www.pnas.org/content/110/13/E1181.abstract}
+}
+
+@TechReport{Chen2010,
+  Title                    = {Towards Understanding Cloud Performance Tradeoffs Using Statistical Workload Analysis and Replay},
+  Author                   = {Yanpei Chen and Archana Sulochana and Ganapathi  and Rean Griffith and Randy H. Katz},
+  Year                     = {2010},
+  Number                   = {UCB/EECS-2010-81},
+
+  File                     = {:Chen2010.pdf:PDF},
+  Review                   = {Towards Understanding Cloud Performance Tradeoffs
+Using Statistical Workload Analysis and Replay
+
+Yanpei Chen
+Archana Sulochana Ganapathi
+Rean Griffith
+Randy H. Katz
+
+Electrical Engineering and Computer Sciences
+University of California at Berkeley
+
+Technical Report No. UCB/EECS-2010-81
+http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-81.html
+
+May 15, 2010
+
+}
+}
+
+@InProceedings{Delimitrou2010,
+  Title                    = {Data Center Workload Characterization},
+  Author                   = {Christina Delimitrou},
+  Year                     = {2010},
+
+  File                     = {:Delimitrou2010.pdf:PDF},
+  Review                   = {Data Center Workload
+Characterization
+
+Christina Delimitrou
+
+04/13/2010 EPIC Meeting – April 13th 2010
+
+}
+}
+
+@InProceedings{5762713,
+  Title                    = {Evaluation and optimization of multicore performance bottlenecks in supercomputing applications},
+  Author                   = {Diamond, J. and Burtscher, M. and McCalpin, J.D. and Byoung-Do Kim and Keckler, S.W. and Browne, J.C.},
+  Booktitle                = {Performance Analysis of Systems and Software (ISPASS), 2011 IEEE International Symposium on},
+  Year                     = {2011},
+  Month                    = {April},
+  Pages                    = {32-43},
+
+  Abstract                 = {The computation nodes of modern supercomputers commonly consist of multiple multicore processors. To maximize the performance of such systems requires measurement, analysis, and optimization techniques that specifically target multicore environments. This paper first examines traditional unicore metrics and demonstrates how they can be misleading in a multicore system. Second, it examines and characterizes performance bottlenecks specific to multicore-based systems. Third, it describes performance measurement challenges that arise in multicore systems and outlines methods for extracting sound measurements that lead to performance optimization opportunities. The measurement and analysis process is based on a case study of the HOMME atmospheric modeling benchmark code from NCAR running on supercomputers built upon AMD Barcelona and Intel Nehalem quad-core processors. Applying the multicore bottleneck analysis to HOMME led to multicore aware source-code optimizations that increased performance by up to 35%. While the case studies were carried out on multichip nodes of supercomputers using an HPC application as the target for optimization, the pitfalls identified and the insights obtained should apply to any system that is composed of multicore processors.},
+  Doi                      = {10.1109/ISPASS.2011.5762713},
+  Keywords                 = {mainframes;microprocessor chips;multiprocessing systems;performance evaluation;source coding;AMD Barcelona;HOMME atmospheric modeling benchmark code;HPC application;Intel Nehalem quadcore processor;NCAR;multichip nodes;multicore aware source code optimization;multicore performance bottlenecks;multicore processors;performance measurement;performance optimization;sound measurement;supercomputing;unicore metrics;Atmospheric modeling;Multicore processing;Optimization;Program processors;Scalability;Semiconductor device measurement},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{Analysis2012,
+  Title                    = {Performance Analysis and of HPC and Applications in the Cloud},
+  Author                   = {Roberto R. Exposito and Guillermo L. Taboada and Sabela Ramos and Juan Tourino},
+  Year                     = {2012},
+
+  Abstract                 = {},
+  File                     = {:Analysis2012.pdf:PDF},
+  Keywords                 = {Cloud Computing, High Performance Computing, Amazon EC2 Cluster Compute platform, MPI, OpenMP},
+  Review                   = {*Manuscript
+Click here to view linked References
+
+Performance Analysis of HPC Applications in the Cloud
+
+Roberto R. Expo´sito∗, Guillermo L. Taboada, Sabela Ramos, Juan Tourin˜o,
+Ramo´n Doallo
+
+Computer Architecture Group, University of A Corun˜a, A Corun˜a, Spain
+
+Abstract
+
+The scalability of High Performance Computing (HPC) applications depends
+heavily on the efficient support of network communications in virtualized en-
+vironments. However, Infrastructure as a Service (IaaS) providers are more
+focused on deploying systems with higher computational power intercon-
+nected via high-speed networks rather than improving the scalability of the
+communication middleware. This paper analyzes the main performance bot-
+tlenecks in HPC applications scalability on Amazon EC2 Cluster Compute
+platform: (1) evaluating the communication performance on shared memory
+and a virtualized 10 Gigabit Ethernet network; (2) assessing the scalability
+of representative HPC codes, the NAS Parallel Benchmarks, using an im-
+portant number of cores, up to 512; (3) analyzing the new cluster instances
+(CC2), both in terms of single instance performance, scalability and cost-
+efficiency of its use; (4) suggesting techniques for reducing the impact of the
+virtualization overhead in the scalability of communication-intensive HPC
+codes, such as the direct access of the Virtual Machine to the network and
+reducing the number of processes per instance; and (5) proposing the com-
+bination of message-passing with multithreading as the most scalable and
+cost-effective option for running HPC applications on Amazon EC2 Cluster
+Compute platform.
+
+Keywords: Cloud Computing, High Performance Computing, Amazon
+EC2 Cluster Compute platform, MPI, OpenMP
+
+∗Corresponding author. Computer Architecture Group, University of A Corun˜a, Cam-
+pus de Elvin˜a s/n, 15071 A Corun˜a, Spain. Tel.: +34 981167000; Fax: +34 981167160
+
+Email addresses: rreye@udc.es (Roberto R. Expo´sito), taboada@udc.es (Guillermo
+L. Taboada), sramos@udc.es (Sabela Ramos), juan@udc.es (Juan Tourin˜o),
+doallo@udc.es (Ramo´n Doallo)
+
+Preprint submitted to Future Generation Computer Systems June 14, 2012
+
+}
+}
+
+@InProceedings{Fenn,
+  Title                    = {A Performance and Cost Analysis of the Amazon Elastic Compute Cloud (EC2) Cluster Compute Instance},
+  Author                   = {● Michael Fenn and Jason Holmes and Jeffrey Nucciarone},
+  Note                     = {Linked from http://www.admin-magazine.com/HPC/Articles/Moving-HPC-to-the-Cloud},
+
+  File                     = {:cloudreport.pdf:PDF},
+  Review                   = {A Performance and Cost Analysis of the Amazon Elastic Compute 
+Cloud (EC2) Cluster Compute Instance 
+ 
+Michael Fenn (mfenn@psu.edu), 
+Jason Holmes (jholmes@psu.edu), 
+Jeffrey Nucciarone (nucci@psu.edu)
+Research Computing and Cyberinfrastructure Group, Penn State University.
+ 
+Introduction:
+ 
+Amazon recently announced the availability of Elastic Compute Cloud (EC2) Cluster Compute 
+Instances specifically designed for high performance computing (HPC) applications. The 
+instance type, Cluster Compute Quadruple Extra Large, is a 64-bit platform running either 
+Windows or Linux, has 23GB memory, dual quad-core Intel Nehalem processors, 10 Gigabit 
+Ethernet I/O, and 1,690 GB of storage. This instance type is available in Amazon’s U.S. 
+– Northern Virginia Region data center.  Amazon worked closely with researchers at the 
+Lawrence Berkeley National Laboratory in the development of this instance type. The current 
+charge for this node type is $1.60 per node per hour.  An 880 instance running LINPACK 
+achieved 41.82 TFLOPS.  With this much cluster compute power available on demand the 
+question arises if cloud computing with using and Amazon EC2 HPC instance type can meet 
+the HPC demands of an individual researcher. This paper seeks to determine the feasibility 
+of utilizing Amazon EC2 clusters for real-world workloads and compare the result with a large 
+University Based Computer Center (UBCC). 
+ 
+Amazon Elastic Compute Cloud Concepts:
+ 
+The Amazon Elastic Compute Cloud (EC2) is service provided by Amazon.com whereby users 
+can obtain access to virtualized computational resources hosted in one of many Amazon 
+datacenters.  Users are given low-level access to a virtual machine (VM) where they can install 
+software, run jobs, etc.  
+ 
+Fundamental EC2 concepts include the Amazon Machine Image (AMI), the EC2 instance and 
+the Elastic Block Store (EBS) volume.  
+● An AMI is an immutable representation of a set of disks that contain an operating 
+system, user applications, and/or data.  
+
+● An EBS volume is a read/write disk that can be created from an AMI and mounted by an 
+instance.  
+
+● An EC2 instance is a virtual machine running on Amazon’s physical hardware.  
+ 
+Since AMIs are immutable, they are copied into Elastic Block Store (EBS) volumes (one 
+per disk) upon starting an instance.  Once created, the EBS volume is independent of the 
+originating AMI and a snapshot of the EBS volumes can be created and bundled into a new 
+AMI.  The independence of the AMI and EBS volume also allows for multiple instances to be 
+started from a single AMI.  The EC2 control panel also exposes which availability zone into 
+which a particular instance or EBS volume has been placed.  Instances and volumes placed in 
+
+}
+}
+
+@Article{4906989,
+  Title                    = {PowerPack: Energy Profiling and Analysis of High-Performance Systems and Applications},
+  Author                   = {Rong Ge and Xizhou Feng and Shuaiwen Song and Hung-Ching Chang and Dong Li and Cameron, K.W.},
+  Journal                  = {Parallel and Distributed Systems, IEEE Transactions on},
+  Year                     = {2010},
+
+  Month                    = {May},
+  Number                   = {5},
+  Pages                    = {658-671},
+  Volume                   = {21},
+
+  Abstract                 = {Energy efficiency is a major concern in modern high-performance computing system design. In the past few years, there has been mounting evidence that power usage limits system scale and computing density, and thus, ultimately system performance. However, despite the impact of power and energy on the computer systems community, few studies provide insight to where and how power is consumed on high-performance systems and applications. In previous work, we designed a framework called PowerPack that was the first tool to isolate the power consumption of devices including disks, memory, NICs, and processors in a high-performance cluster and correlate these measurements to application functions. In this work, we extend our framework to support systems with multicore, multiprocessor-based nodes, and then provide in-depth analyses of the energy consumption of parallel applications on clusters of these systems. These analyses include the impacts of chip multiprocessing on power and energy efficiency, and its interaction with application executions. In addition, we use PowerPack to study the power dynamics and energy efficiencies of dynamic voltage and frequency scaling (DVFS) techniques on clusters. Our experiments reveal conclusively how intelligent DVFS scheduling can enhance system energy efficiency while maintaining performance.},
+  Doi                      = {10.1109/TPDS.2009.76},
+  ISSN                     = {1045-9219},
+  Keywords                 = {energy conservation;multiprocessing systems;parallel processing;power aware computing;power consumption;DVFS scheduling;PowerPack;dynamic voltage and frequency scaling techniques;energy consumption;energy efficiency;energy profiling;high-performance computing system design;multicore support systems;multiprocessor-based nodes;power efficiency;CMP-based cluster;Distributed system;dynamic voltage and frequency scaling.;energy efficiency;power management;power measurement;system tools},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{He2011,
+  Title                    = {Performance Analysis based on two Leading Cloud Computing Platforms},
+  Author                   = {Chao He and he.chao@wustl.edu (A and paper written under the guidance of Prof.  and Raj Jain) and Download },
+  Year                     = {2011},
+
+  File                     = {:He2011.pdf:PDF},
+  Keywords                 = {cloud computing, Google App Engine, Amazon Web Service, traditional web servers, round-trip time, network throughput, network bandwidth, measurement, performance analysis},
+  Review                   = {Performance Analysis based on two Leading Cloud Computing Platforms:... http://www1.cse.wustl.edu/~jain/cse567-11/ftp/clouds/index.html
+
+Chao He he.chao@wustl.edu (A paper written under the guidance of Prof.
+Raj Jain) Download
+
+Cloud computing is recognized as a revolution in the computing area, meanwhile, it also brings the question
+on the necessity and applicability of this new industry standard. This paper aims at the analysis of the
+performance comparison of cloud computing platforms and traditional web servers. Two significant cloud
+computing platforms, Google App Engine and Amazon Web Service, are chosen for study. The analysis
+indicates that cloud computing platforms can get reasonable performance compared to traditional web
+servers.
+
+Keywords: cloud computing, Google App Engine, Amazon Web Service, traditional web servers, round-trip
+time, network throughput, network bandwidth, measurement, performance analysis.
+
+1 Introduction
+1.1 Background
+1.2 Key Characteristics
+
+2 Two Leading Cloud Computing Platforms
+2.1 Google App Engine
+2.2 Amazon Web Service
+2.3 Comparison of Google App Engine and Amazon Web Service
+
+3. Performance Analysis
+3.1 Analysis for Google App Engine
+
+3.1.1 Measuring Tools and Implementations
+3.1.2 Metrics Selection
+3.1.3. Parameters Selection
+3.1.4 Performance Analysis
+
+3.2 Analysis for Amazon Web Service
+3.2.1 Machine Specifications and Instanced for Amazon Web Service and Camillus
+3.2.2 Metrics and Parameters Selection
+3.2.3 Performance Analysis
+
+3.3 Future Work
+4 Summary
+5 List of Acronyms
+6 References
+
+1 of 10 5/4/2011 4:47 PM
+
+},
+  Url                      = {http://www1.cse.wustl.edu/~jain/cse567-11/ftp/clouds/index.html}
+}
+
+@InProceedings{5708447,
+  Title                    = {Performance Analysis of High Performance Computing Applications on the Amazon Web Services Cloud},
+  Author                   = {Jackson, K.R. and Ramakrishnan, L. and Muriki, K. and Canon, S. and Cholia, S. and Shalf, J. and Wasserman, Harvey J. and Wright, N.J.},
+  Booktitle                = {Cloud Computing Technology and Science (CloudCom), 2010 IEEE Second International Conference on},
+  Year                     = {2010},
+  Month                    = {Nov},
+  Pages                    = {159-168},
+
+  Doi                      = {10.1109/CloudCom.2010.69},
+  Keywords                 = {Web services;cloud computing;Amazon Web services cloud computing;EC2 cloud platform;Linux cluster;cloud migration;high performance computing application;performance analysis;supercomputing center;Bandwidth;Benchmark testing;Cloud computing;Communities;Computer aided manufacturing;Program processors;Stress;Clouds;Distributed Computing;HPC;MPI;Performance},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{Indianapolis2010,
+  Title                    = {Performance of HPC Applications on the Amazon Web Services Cloud},
+  Author                   = {Keith R. Jackson and Lavanya Ramakrishnan and Krishna Muriki and Shane Canon and Shreyas Cholia and Harvey J. Wasserman and Nicholas J. Wright},
+  Year                     = {2010},
+  Organization             = {Lawrence Berkeley National Lab},
+
+  File                     = {:Performance Analysis of High Performance Computing Applications on the Amazon Web Services Cloud.pdf:PDF},
+  Review                   = {Cloudcom 2010 
+November 1, 2010 
+
+Indianapolis, IN 
+
+Performance of HPC Applications 
+on the Amazon Web Services 
+
+Cloud 
+Keith R. Jackson, Lavanya Ramakrishnan, Krishna 
+Muriki, Shane Canon, Shreyas Cholia, Harvey J. 
+
+Wasserman, Nicholas J. Wright 
+Lawrence Berkeley National Lab 
+
+},
+  Url                      = {http://salsahpc.indiana.edu/CloudCom2010/slides/PDF/Performance%20Analysis%20of%20High%20Performance%20Computing%20Applications%20on%20the%20Amazon%20Web%20Services%20Cloud.pdf}
+}
+
+@InProceedings{Techniques2008,
+  Title                    = {Workload Characterization Techniques},
+  Author                   = {Raj Jain},
+  Year                     = {2008},
+
+  File                     = {:Techniques2008.pdf:PDF},
+  Review                   = {Workload 
+Characterization 
+
+Techniques
+Raj Jain 
+
+Washington University in Saint Louis
+Saint Louis, MO 63130
+
+Jain@cse.wustl.edu
+These slides are available on-line at:
+
+http://www.cse.wustl.edu/~jain/cse567-08/
+Washington University in St. Louis CSE567M ©2008 Raj Jain
+
+6-1
+
+},
+  Url                      = {http://www.cse.wustl.edu/~jain/cse567-08/}
+}
+
+@TechReport{Jha1403,
+  Title                    = {A Tale of Two Data-Intensive Paradigms: Applications, Abstractions, and Architectures},
+  Author                   = {Shantenu Jha and Judy Qiu and Andre Luckow and Pradeep Mantha and Geoffrey C.Fox},
+  Year                     = {1403},
+  Note                     = {http://www.hpcwire.com/soundbite/tale-two-data-intensive-computing-paradigms/},
+  Number                   = {performance},
+
+  Abstract                 = {Scientific problems that depend on processing large has been characterized by limited implementations, but cus-
+amounts of data require overcoming challenges in multiple tomized and tuned for performance along a narrow set of
+areas: managing large-scale data distribution, co-placement and requirements. In contrast, the Apache-Hadoop paradigm, here
+scheduling of data with compute resources, and storing and
+transferring large volumes of data. We analyze the ecosystems after referred to as Apache Big Data Stack (ABDS), has seen
+of the two prominent paradigms for data-intensive applications, a significant update in industry and recently also in scientific
+hereafter referred to as the high-performance computing and environments. A vibrant, manifold open-source ecosystem
+the Apache-Hadoop paradigm. We propose a basis, common consisting of higher-level data stores, data processing/analytics
+terminology and functional factors upon which to analyze the two and machine learning frameworks has evolved around a stable,
+approaches of both paradigms. We discuss the concept of “Big
+Data Ogres” and their facets as means of understanding and non-monolithic kernel: the Hadoop Filesystem (HDFS) and
+characterizing the most common application workloads found YARN. Hadoop integrates compute and data, and introduces
+across the two paradigms. We then discuss the salient features application-level scheduling as a means to facilitate heteroge-
+of the two paradigms, and compare and contrast the two ap- neous application workloads and high cluster utilization.
+proaches. Specifically, we examine common implementation/ap- The success and evolution of ABDS into a widely deployed
+proaches of these paradigms, shed light upon the reasons for
+their current “architecture” and discuss some typical workloads cluster computing framework yields many opportunities for
+that utilize them. In spite of the significant software distinctions, traditional scientific applications; it also raises important ques-
+we believe there is architectural similarity. We discuss the tions, viz., What features of Hadoop are useful for traditional
+potential integration of different implementations, across the scientific workloads? What features of the ABDS can be
+different levels and components. Our comparison progresses from extended and integrated with HPC? How do data-intensive
+a fully qualitative examination of the two paradigms, to a semi-
+quantitative methodology. We use a simple and broadly used Ogre HPC and ABDS workloads differ? It is currently difficult for
+(K-means clustering), characterize its performance on a range of most applications to utilize the two paradigms interoperably.
+representative platforms, covering several implementations from The divergence and heterogeneity will likely increase due
+both paradigms. Our experiments provide an insight into the to the continuing evolution of ABDS, thus we believe it is
+relative strengths of the two paradigms. We propose that the set important and timely to answer questions that will support
+of Ogres will serve as a benchmark to evaluate the two paradigms
+along different dimensions. interoperable approaches. However, before such interoperable},
+  File                     = {:Jha1403.pdf:PDF},
+  Review                   = {A Tale of Two Data-Intensive Paradigms:
+Applications, Abstractions, and Architectures
+
+Shantenu Jha1, Judy Qiu2, Andre Luckow1, Pradeep Mantha1, Geoffrey C.Fox2∗
+(1) RADICAL, Rutgers University, Piscataway, NJ 08854, USA (2) Indiana University, USA
+
+(∗)Contact Author:gcf@indiana.edu
+
+Abstract—Scientific problems that depend on processing large has been characterized by limited implementations, but cus-
+amounts of data require overcoming challenges in multiple tomized and tuned for performance along a narrow set of
+areas: managing large-scale data distribution, co-placement and requirements. In contrast, the Apache-Hadoop paradigm, here
+scheduling of data with compute resources, and storing and
+transferring large volumes of data. We analyze the ecosystems after referred to as Apache Big Data Stack (ABDS), has seen
+of the two prominent paradigms for data-intensive applications, a significant update in industry and recently also in scientific
+hereafter referred to as the high-performance computing and environments. A vibrant, manifold open-source ecosystem
+the Apache-Hadoop paradigm. We propose a basis, common consisting of higher-level data stores, data processing/analytics
+terminology and functional factors upon which to analyze the two and machine learning frameworks has evolved around a stable,
+approaches of both paradigms. We discuss the concept of “Big
+Data Ogres” and their facets as means of understanding and non-monolithic kernel: the Hadoop Filesystem (HDFS) and
+characterizing the most common application workloads found YARN. Hadoop integrates compute and data, and introduces
+across the two paradigms. We then discuss the salient features application-level scheduling as a means to facilitate heteroge-
+of the two paradigms, and compare and contrast the two ap- neous application workloads and high cluster utilization.
+proaches. Specifically, we examine common implementation/ap- The success and evolution of ABDS into a widely deployed
+proaches of these paradigms, shed light upon the reasons for
+their current “architecture” and discuss some typical workloads cluster computing framework yields many opportunities for
+that utilize them. In spite of the significant software distinctions, traditional scientific applications; it also raises important ques-
+we believe there is architectural similarity. We discuss the tions, viz., What features of Hadoop are useful for traditional
+potential integration of different implementations, across the scientific workloads? What features of the ABDS can be
+different levels and components. Our comparison progresses from extended and integrated with HPC? How do data-intensive
+a fully qualitative examination of the two paradigms, to a semi-
+quantitative methodology. We use a simple and broadly used Ogre HPC and ABDS workloads differ? It is currently difficult for
+(K-means clustering), characterize its performance on a range of most applications to utilize the two paradigms interoperably.
+representative platforms, covering several implementations from The divergence and heterogeneity will likely increase due
+both paradigms. Our experiments provide an insight into the to the continuing evolution of ABDS, thus we believe it is
+relative strengths of the two paradigms. We propose that the set important and timely to answer questions that will support
+of Ogres will serve as a benchmark to evaluate the two paradigms
+along different dimensions. interoperable approaches. However, before such interoperable
+
+approaches can be formulated, it is important to understand the
+I. INTRODUCTION different abstractions, architectures and applications that each
+
+The growing importance of data-intensive applications is paradigm utilizes and supports. It is the aim of this paper to
+generally recognized and has lead to a wide range of ap- provide the conceptual framework and terminology, so as to
+proaches and solutions for data distribution, management and begin addressing questions of interoperability.
+processing. These approaches are characterized by a broad Paper Outline: This paper is divided into two logical
+set of tools, software frameworks and implementations. Al- parts: in the first, we analyze the ecosystem of the two
+though seemingly unrelated, the approaches can be better primary paradigms to data-intensive applications. We discuss
+understood by examining their use of common abstractions the salient features of the two paradigms, compare and con-
+and similar architectures for data management and processing. trast the two for functionality and implementations along
+Building upon this putative similarly, we examine and organize the layers of analysis, runtime-environments, communication
+many existing approaches to Big Data processing into two layer, resource management layer and the physical resource
+primary paradigms – the scientific high-performance (HPC) layer. In the second part, we move from a fully qualitative
+and Apache-Hadoop paradigms, which we believe reflects and examination of the two, to a semi-quantitative methodology,
+captures the dominant historical, technical and social forces whereby we experimentally examine both hard performance
+that have shaped the landscape of Big Data analytics. numbers (along different implementations of the two stacks)
+
+The HPC paradigm has its roots in supercomputing-class and soft issues such as completeness, expressivity, extensibility
+computationally intensive scientific problems (e.g. Molecular as well as software engineering considerations.
+Dynamics of macromolecular systems, fluid dynamics at scales II. DATA-INTENSIVE APPLICATION: BIG DATA OGRES
+to capture turbulence) and in managing large-scale distributed Based upon an analysis of a large set of Big Data applica-
+problems (e. g. data analysis from the LHC). HPC paradigm tions, including more than 50 use cases [1], we propose the Big
+
+arXiv:1403.1528v1  [cs.DC]  6 Mar 2014}
+}
+
+@Article{DBLP:journals/corr/JiaWZZL13,
+  Title                    = {Characterizing Data Analysis Workloads in Data Centers},
+  Author                   = {Zhen Jia and
+ Lei Wang and
+ Jianfeng Zhan and
+ Lixin Zhang and
+ Chunjie Luo},
+  Journal                  = {CoRR},
+  Year                     = {2013},
+  Volume                   = {abs/1307.8013},
+
+  Bibsource                = {DBLP, http://dblp.uni-trier.de},
+  Ee                       = {http://arxiv.org/abs/1307.8013},
+  File                     = {:DBLP_journals_corr_JiaWZZL13.pdf:PDF},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@Conference{Marathe:2013:CSH:2493123.2462919,
+  Title                    = {A comparative study of high-performance computing on the cloud},
+  Author                   = {Marathe, Aniruddha and Harris, Rachel and Lowenthal, David K. and de Supinski, Bronis R. and Rountree, Barry and Schulz, Martin and Yuan, Xin},
+  Booktitle                = {Proceedings of the 22nd international symposium on High-performance parallel and distributed computing},
+  Year                     = {2013},
+
+  Address                  = {New York, NY, USA},
+  Organization             = {ACM},
+  Pages                    = {239{\textendash}250},
+  Publisher                = {ACM},
+  Series                   = {HPDC {\textquoteright}13},
+
+  Attachments              = {https://portal.futuregrid.org/sites/default/files/cloud-final.pdf},
+  Doi                      = {10.1145/2462902.2462919},
+  File                     = {:p239-lowenthal.pdf:PDF},
+  ISBN                     = {978-1-4503-1910-2},
+  Keywords                 = {cloud, cost, high-performance computing, turnaround time},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://doi.acm.org/10.1145/2462902.2462919}
+}
+
+@InProceedings{May2014,
+  Title                    = {INTERNET TRENDS 2014},
+  Author                   = {Mary Meeker},
+  Year                     = {2014},
+
+  File                     = {:May2014.pdf:PDF},
+  Review                   = {INTERNET TRENDS 2014 –  
+CODE CONFERENCE  
+ 
+Mary Meeker 
+
+May 28, 2014 
+ 
+kpcb.com/InternetTrends 
+
+ 
+
+1 
+
+}
+}
+
+@InProceedings{MICROARCHITECTURE-INDEPENDENT0272,
+  Title                    = ,
+  Author                   = {MICROARCHITECTURE-INDEPENDENT  and WORKLOAD CHARACTERIZATION},
+  Year                     = {0272},
+  Publisher                = {IEEE},
+
+  File                     = {:MICROARCHITECTURE-INDEPENDENT0272.pdf:PDF},
+  Review                   = {........................................................................................................................................................................................................................................................
+
+MICROARCHITECTURE-INDEPENDENT
+WORKLOAD CHARACTERIZATION
+
+........................................................................................................................................................................................................................................................
+
+FOR COMPUTER DESIGNERS, UNDERSTANDING THE CHARACTERISTICS OF WORKLOADS
+
+RUNNING ON CURRENT AND FUTURE COMPUTER SYSTEMS IS OF UTMOST IMPORTANCE
+
+DURING MICROPROCESSOR DESIGN. A MICROARCHITECTURE-INDEPENDENT METHOD
+
+ENSURES AN ACCURATE CHARACTERIZATION OF INHERENT PROGRAM BEHAVIOR AND
+
+AVOIDS THE WEAKNESSES OF MICROARCHITECTURE-DEPENDENT METRICS.
+
+......The workloads that run on our reasons. First, it provides insight into whether
+computer systems are always evolving. Soft- next-generation microprocessors should be
+ware companies continually come up with designed differently from today’s machines to
+new applications, many triggered by the accommodate the emerging workloads. Sec-
+increasing computational power available. It ond, if the new workload domain is not
+is important that computer designers un- significantly different from existing bench-
+derstand the characteristics of these emerging mark suites, there is no need to include the
+workloads to optimize systems for their new benchmarks in the design process—
+target workloads. Moreover, the need for simulating the additional benchmarks would
+a solid workload characterization methodol- only add to the simulation time without
+ogy is increasing with the shift to chip providing additional information.
+multiprocessors—especially heterogeneous To find out how different the emerging
+CMPs with various cores specialized for workloads are from existing benchmark
+
+Kenneth Hoste particular types of workloads. suites, computer designers usually compare
+Computer architects and performance the characteristics of the emerging work-
+
+Lieven Eeckhout analysts are well aware of the workload drift loads with the characteristics of well-known
+phenomenon, and to address it, they typically benchmark suites. A typical approach is to
+
+Ghent University collect benchmarks to represent emerging characterize the emerging workload in terms
+workloads. Examples of recently introduced of microarchitecture-dependent metrics.
+benchmark suites covering emerging work- For example, most workload characteriza-
+loads are MediaBench for multimedia work- tion studies run benchmarks representing
+loads, MiBench and EEMBC (Embedded the emerging workload on a given micro-
+Microprocessor Benchmark Consortium, processor while measuring program char-
+http://www.eembc.org) for embedded work- acteristics with hardware performance coun-
+loads, BioMetricsWorkload for biometrics ters. Other studies use simulation to derive
+workloads, and BioInfoMark and BioPerf for similar results. The program characteristics
+bioinformatics workloads.1–5 A key question typically measured include instruction mix
+is how different these workloads are from and microarchitecture-dependent character-
+existing, well-known benchmark suites. An- istics such as instructions per cycle (IPC),
+swering this question is important for two cache miss rates, branch misprediction rates,
+
+........................................................................
+
+0272-1732/07/$20.00 G 2007 IEEE Published by the IEEE Computer Society. 63
+
+}
+}
+
+@InProceedings{Mishra2009,
+  Title                    = {Towards Characterizing Cloud Backend Workloads: Insights from Google Compute Clusters},
+  Author                   = {Asit K. Mishra and ∗ Joseph and L. Hellerstein and Walfredo Cirne and Chita R. Das and †The Pennsylvania and State University and §Google Inc.},
+  Year                     = {2009},
+
+  Abstract                 = {jitter; and tasks place varied demands on machine resources such as
+CPU, memory, disk bandwidth, and network capacity. A compute
+},
+  File                     = {:Mishra2009.pdf:PDF},
+  Review                   = {Towards Characterizing Cloud Backend Workloads:
+Insights from Google Compute Clusters
+
+Asit K. Mishra† ∗ Joseph L. Hellerstein§ Walfredo Cirne§ Chita R. Das†
+†The Pennsylvania State University §Google Inc.
+
+University Park, PA-16801, USA Mountain View, CA 94043, USA
+{amishra,das}@cse.psu.edu {jlh,walfredo}@google.com
+
+Abstract jitter; and tasks place varied demands on machine resources such as
+CPU, memory, disk bandwidth, and network capacity. A compute
+
+The advent of cloud computing promises highly available, effi-
+cluster contains thousands of machines, and typically executes tens
+
+cient, and flexible computing services for applications such as web
+of thousands of tasks each day.
+
+search, email, voice over IP, and web search alerts. Our experience
+Our role at Google has been closely connected with scaling the
+
+at Google is that realizing the promises of cloud computing requires
+cloud backend, especially capacity planning and task scheduling.
+
+an extremely scalable backend consisting of many large compute
+Capacity planning determines which machine resources must grow
+
+clusters that are shared by application tasks with diverse service
+by how much to meet future application demands. Effective capac-
+
+level requirements for throughput, latency, and jitter. These consid-
+ity planning requires simple and accurate models of the resource
+
+erations impact (a) capacity planning to determine which machine
+demands of Google tasks in order to forecast future resource de-
+
+resources must grow and by how much and (b) task scheduling to
+mands that are used to determine the number and configuration of
+
+achieve high machine utilization and to meet service level objec-
+machines in a compute cluster. Scheduling refers to placing tasks
+
+tives.
+on machines to maximize machine utilizations and to meet service
+
+Both capacity planning and task scheduling require a good un-
+level objectives. This can be viewed as multi-dimensional bin pack-
+
+derstanding of task resource consumption (e.g., CPU and memory
+ing in which bin dimensions are determined by machine configura-
+
+usage). This in turn demands simple and accurate approaches to
+tions (e.g., number of cores, memory size). Here too, we need sim-
+
+workload classification—determining how to form groups of tasks
+ple and accurate models of the resource demands of Google tasks to
+
+(workloads) with similar resource demands. One approach to work-
+construct a small number of “task resource shapes” in order to re-
+
+load classification is to make each task its own workload. However,
+duce the complexity of the bin packing problem. Certain aspects of
+
+this approach scales poorly since tens of thousands of tasks execute
+capacity planning and scheduling can benefit from models of task
+
+daily on Google compute clusters. Another approach to workload
+arrival rates. Although such models are not a focus of this paper,
+
+classification is to view all tasks as belonging to a single workload.
+work such as [17] seems directly applicable.
+
+Unfortunately, applying such a coarse-grain workload classification
+In this paper, the Google Cloud Backend workload is a collec-
+
+to the diversity of tasks running on Google compute clusters results
+tion of tasks, each of which executes on a single machine in a com-
+
+in large variances in predicted resource consumptions.
+pute cluster. We use the term workload characterization to refer to
+
+This paper describes an approach to workload classification and
+models of the machine resources consumed by tasks. The workload
+
+its application to the Google Cloud Backend, arguably the largest
+models should be simple in that there are few parameters to esti-
+
+cloud backend on the planet. Our methodology for workload clas-
+mate, and the models should be accurate in that model predictions
+
+sification consists of: (1) identifying the workload dimensions; (2)
+of task resource consumption have little variability.
+
+constructing task classes using an off-the-shelf algorithm such as
+A first step in building workload models is task classification
+
+k-means; (3) determining the break points for qualitative coordi-
+in which tasks with similar resource consumption are grouped to-
+
+nates within the workload dimensions; and (4) merging adjacent
+gether. Each task class is referred to as a workload. One approach to
+
+task classes to reduce the number of workloads. We use the forego-
+task classification is to create a separate class for each task. While
+
+ing, especially the notion of qualitative coordinates, to glean several
+models based on such a fine-grain classification can be quite ac-
+
+insights about the Google Cloud Backend: (a) the duration of task
+curate for frequently executed tasks with consistent resource de-
+
+executions is bimodal in that tasks either have a short duration or
+mands, the fine-grain approach suffers from complexity if there are
+
+a long duration; (b) most tasks have short durations; and (c) most
+a large number of tasks, as is the case in the Google Cloud Backend.
+
+resources are consumed by a few tasks with long duration that have
+An alternative is use a coarse-grain task classification where there
+
+large demands for CPU and memory.
+is a single task class and hence a single workload model to describe
+the consumption of each resource. Unfortunately, the diversity of
+
+1. Introduction Google tasks means that the predictions based on a coarse-grain
+approach have large variances.
+
+Cloud Computing has the potential to provide highly reliable, effi-
+To balance the competing demands of model simplicity and
+
+cient, and flexible computing services. Examples of cloud services
+model accuracy, we employ a medium-grain approach to task clas-
+
+or applications are web search, email, voice over IP, and web alerts.
+sification. Our approach uses well-known techniques from statisti-
+
+Our experience at Google is that a key to successful cloud comput-
+cal clustering to implement the following methodology: (a) identify
+
+ing is providing an extremely scalable backend consisting of many
+the workload dimensions; (b) construct task clusters using an off-
+
+large compute clusters that are shared by application tasks with di-
+the-shelf algorithm such as k-means; (c) determine the break points
+
+verse service level requirements for throughput, latency, and jitter.
+of qualitative coordinates within the workload dimensions; and (d)
+
+This paper describes a methodology for classifying workloads and
+merge adjacent task clusters to reduce the number of model parame-
+
+the application of this methodology to the Google Cloud Backend.
+ters. Applying our methodology to several Google compute clusters
+
+Google applications are structured as one or more job that run
+yields eight workloads. We show that for the same compute clus-
+
+on the Google Cloud backend consisting of many large compute
+ter on successive days, there is consistency in the characteristics of
+
+clusters. Jobs consist of one to thousands of tasks, each of which
+each workload in terms of the number of tasks and the resources
+
+executes on a single machine in a compute cluster. Tasks have var-
+consumed. On the other hand, the medium-grain characterization
+
+ied service level requirements in terms of throughput, latency, and
+identifies differences in workload characteristics between clusters
+
+∗ for which such differences are expected.This work was done while interning at Google during summer 2009.
+
+}
+}
+
+@InProceedings{4086147,
+  Title                    = {MineBench: A Benchmark Suite for Data Mining Workloads},
+  Author                   = {Narayanan, R. and Ozisikyilmaz, B. and Zambreno, J. and Memik, G. and Choudhary, A.},
+  Booktitle                = {Workload Characterization, 2006 IEEE International Symposium on},
+  Year                     = {2006},
+  Month                    = {Oct},
+  Pages                    = {182-188},
+
+  Abstract                 = {Data mining constitutes an important class of scientific and commercial applications. Recent advances in data extraction techniques have created vast data sets, which require increasingly complex data mining algorithms to sift through them to generate meaningful information. The disproportionately slower rate of growth of computer systems has led to a sizeable performance gap between data mining systems and algorithms. The first step in closing this gap is to analyze these algorithms and understand their bottlenecks. With this knowledge, current computer architectures can be optimized for data mining applications. In this paper, we present MineBench, a publicly available benchmark suite containing fifteen representative data mining applications belonging to various categories such as clustering, classification, and association rule mining. We believe that MineBench will be of use to those looking to characterize and accelerate data mining workloads},
+  Doi                      = {10.1109/IISWC.2006.302743},
+  File                     = {:4086147.pdf:PDF},
+  Keywords                 = {computer architecture;data mining;MineBench;computer architecture;data extraction;data mining;Application software;Association rules;Classification tree analysis;Clustering algorithms;Computer architecture;DNA;Data mining;Databases;Fuzzy logic;Sequences},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{4086134,
+  Title                    = {An Architectural Characterization Study of Data Mining and Bioinformatics Workloads},
+  Author                   = {Ozisikyilmaz, B. and Narayanan, R. and Zambreno, J. and Memik, G. and Choudhary, A.},
+  Booktitle                = {Workload Characterization, 2006 IEEE International Symposium on},
+  Year                     = {2006},
+  Month                    = {Oct},
+  Pages                    = {61-70},
+
+  Abstract                 = {Data mining is the process of automatically finding implicit, previously unknown, and potentially useful information from large volumes of data. Advances in data extraction techniques have resulted in tremendous increase in the input data size of data mining applications. Data mining systems, on the other hand, have been unable to maintain the same rate of growth. Therefore, there is an increasing need to understand the bottlenecks associated with the execution of these applications in modern architectures. In this paper, we present MineBench, a publicly available benchmark suite containing fifteen representative data mining applications belonging to various categories: classification, clustering, association rule mining and optimization. First, we highlight the uniqueness of data mining applications. Subsequently, we evaluate the MineBench applications on an 8-way shared memory (SMP) machine and analyze important performance characteristics such as L1 and L2 cache miss rates, branch misprediction rates},
+  Doi                      = {10.1109/IISWC.2006.302730},
+  Keywords                 = {benchmark testing;biology computing;cache storage;data mining;shared memory systems;L1 cache miss rates;L2 cache miss rates;MineBench;architectural characterization;association rule mining;bioinformatics workloads;branch misprediction rates;data extraction;data mining;performance analysis;shared memory machine;Algorithm design and analysis;Application software;Association rules;Bioinformatics;Computer science;Data engineering;Data mining;Multimedia databases;Performance analysis;Streaming media},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{Salzburg2012,
+  Title                    = {Department of Computer Sciences},
+  Author                   = {University of Salzburg},
+  Year                     = {2012},
+  Note                     = {contains benchmarks},
+
+  File                     = {:Salzburg2012.pdf:PDF},
+  Review                   = {Department of Computer Sciences
+
+University of Salzburg
+
+HPC In The Cloud?
+
+Seminar aus Informatik
+SS 2011/2012
+
+July 16, 2012
+
+Michael Kleber, mkleber@cosy.sbg.ac.at
+
+}
+}
+
+@Article{CPE:CPE1486,
+  Title                    = {Observation and analysis of the multicore performance impact on scientific applications},
+  Author                   = {Simon, Tyler A. and McGalliard, James},
+  Journal                  = {Concurrency and Computation: Practice and Experience},
+  Year                     = {2009},
+  Number                   = {17},
+  Pages                    = {2213--2231},
+  Volume                   = {21},
+
+  Abstract                 = {With the proliferation of large multicore high-performance computing systems, application performance is often negatively affected. This paper provides benchmark results for a representative workload from the Department of Defense High-performance Computing Modernization Program. The tests were run on a Cray XT-3 and XT-4, which use dual- and quad-core AMD Opteron microprocessors. We use a combination of synthetic kernel and application benchmarks to examine the cache performance, MPI task placement strategies and compiler optimizations. Our benchmarks show performance behavior similar to that reported in other studies and sites. Dual- and quad-core tests show a run-time performance penalty compared with single-core runs on the same systems. We attribute this performance degradation to a combination of L1 to main memory contention and task placement within the application. Copyright © 2009 John Wiley & Sons, Ltd.},
+  Doi                      = {10.1002/cpe.1486},
+  File                     = {:CPE_CPE1486.pdf:PDF},
+  ISSN                     = {1532-0634},
+  Keywords                 = {multicore, benchmark, high-performance computing, memory contention, MPI},
+  Owner                    = {jthalbert},
+  Publisher                = {John Wiley \& Sons, Ltd.},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://dx.doi.org/10.1002/cpe.1486}
+}
+
+@InProceedings{Singer,
+  Title                    = {Towards a Model for Cloud Computing Cost Estimation with Reserved Instances},
+  Author                   = {Georg Singer and Ilja Livenson and Marlon Dumas and Satish N. Srirama and Ulrich and Norbisrath1},
+
+  Abstract                 = {Cloud computing has been touted as a lower-cost alternative
+to in-house IT infrastructure recently. However, case studies and anecdo-
+tal evidence suggest that it is not always cheaper to use cloud computing
+resources in lieu of in-house infrastructure. Also, several factors influence
+the cost of sourcing computing resources from the cloud. For example,
+cloud computing providers offer virtual machine instances of different
+types. Each type of virtual machine strikes a different tradeoff between
+memory capacity, processing power and cost. Also, some providers offer
+discounts over the hourly price of renting a virtual machine instance if
+the instance is reserved in advance and an upfront reservation fee is paid.
+The choice of virtual machine types and the reservation schedule have a
+direct impact on the running costs. Therefore, IT decision-makers need
+tools that allow them to determine the potential cost of sourcing their
+computing resources from the cloud and the optimal sourcing strategy.
+This paper presents an initial model for estimating the optimal cost of
+replacing in-house servers with cloud computing resources. The model
+takes as input the load curve, RAM, storage and network usage ob-
+served in the in-house servers over a representative season. Based on
+this input, the model produces an estimate of the amount of virtual ma-
+chine instances required across the planning time, in order to replace the
+in-house infrastructure. As an initial validation of the model, we have
+applied it to assess the cost of replacing an HPC cluster with virtual
+machine instances sourced from Amazon EC2.
+},
+  File                     = {:cloudtcc.pdf:PDF},
+  Review                   = {Towards a Model for Cloud Computing Cost
+Estimation with Reserved Instances
+
+Georg Singer1, Ilja Livenson2, Marlon Dumas1, Satish N. Srirama1, and Ulrich
+Norbisrath1
+
+1 University of Tartu, Estonia
+{FirstName.LastName}@ut.ee
+
+2 NICPB, Estonia
+ilja@kbfi.ee
+
+Abstract. Cloud computing has been touted as a lower-cost alternative
+to in-house IT infrastructure recently. However, case studies and anecdo-
+tal evidence suggest that it is not always cheaper to use cloud computing
+resources in lieu of in-house infrastructure. Also, several factors influence
+the cost of sourcing computing resources from the cloud. For example,
+cloud computing providers offer virtual machine instances of different
+types. Each type of virtual machine strikes a different tradeoff between
+memory capacity, processing power and cost. Also, some providers offer
+discounts over the hourly price of renting a virtual machine instance if
+the instance is reserved in advance and an upfront reservation fee is paid.
+The choice of virtual machine types and the reservation schedule have a
+direct impact on the running costs. Therefore, IT decision-makers need
+tools that allow them to determine the potential cost of sourcing their
+computing resources from the cloud and the optimal sourcing strategy.
+This paper presents an initial model for estimating the optimal cost of
+replacing in-house servers with cloud computing resources. The model
+takes as input the load curve, RAM, storage and network usage ob-
+served in the in-house servers over a representative season. Based on
+this input, the model produces an estimate of the amount of virtual ma-
+chine instances required across the planning time, in order to replace the
+in-house infrastructure. As an initial validation of the model, we have
+applied it to assess the cost of replacing an HPC cluster with virtual
+machine instances sourced from Amazon EC2.
+
+1 Introduction
+
+p At the infrastructure level – also known as Infrastructure-as-a-Service – cloud
+computing is generally associated with large datacenter operators (e.g. Amazon,
+GoGrid, Google, IBM) selling IT resources at a very fine level of granularity
+(e.g. on an hourly basis). A key claim made in this context is that replacing in-
+house IT infrastructures with cloud computing resources leads to significant cost
+savings, which are attributed to the economies of scale that such providers can
+obtain. In a case study written by Nucleus Research about a local TV channel
+in the US using Google Apps [1] an ROI of 500% and a paypack of 1 month
+
+}
+}
+
+@InCollection{raey,
+  Title                    = {Workload characterization of input/output intensive parallel applications},
+  Author                   = {Smirni, Evgenia and Reed, DanielA.},
+  Booktitle                = {Computer Performance Evaluation Modelling Techniques and Tools},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {1997},
+  Editor                   = {Marie, Raymond and Plateau, Brigitte and Calzarossa, Maria and Rubino, Gerardo},
+  Pages                    = {169-180},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {1245},
+
+  Doi                      = {10.1007/BFb0022205},
+  ISBN                     = {978-3-540-63101-9},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://dx.doi.org/10.1007/BFb0022205}
+}
+
+@Book{,
+  Title                    = {Cloud, Grid and High Performance Computing},
+  Author                   = {Emmanuel Udoh},
+  Publisher                = {IGI Global},
+  Year                     = {2011},
+  Note                     = {has chapter on Porting HPC applications to Grids and Clouds with case study on HPC applications on Amazon},
+
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03},
+  Url                      = {http://my.safaribooksonline.com/book/operating-systems-and-server-administration/virtualization/9781609606039}
+}
+
+@Misc{Vandierendonck_onthe,
+  Title                    = {On the Use of Statistical Data Analysis Techniques in Workload Characterization},
+
+  Author                   = {Hans Vandierendonck and Koen De Bosschere},
+
+  File                     = {:Vandierendonck_onthe.pdf:PDF},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@Article{129222,
+  Title                    = {On workload characterization of relational database environments},
+  Author                   = {Yu, P.S. and Chen, M.-S. and Heiss, H.-U. and Sukho Lee},
+  Journal                  = {Software Engineering, IEEE Transactions on},
+  Year                     = {1992},
+
+  Month                    = {Apr},
+  Number                   = {4},
+  Pages                    = {347-355},
+  Volume                   = {18},
+
+  Abstract                 = {A relational database workload analyzer (REDWAR) is developed to characterize the workload in a DB2 environment. This is applied to study a production DB2 system where a structured query language (SQL) trace for a two-hour interval and an image copy of the database catalog were obtained. The results of the workload study are summarized. The structure and complexity of SQL statements, the makeup and run-time behavior of transactions/queries, and the composition of relations and views are discussed. The results obtained provide the important information needed to build a benchmark workload to evaluate the alternative design tradeoffs of database systems},
+  Doi                      = {10.1109/32.129222},
+  ISSN                     = {0098-5589},
+  Keywords                 = {DP management;database theory;query languages;relational databases;systems analysis;DB2 environment;REDWAR;SQL;benchmark workload;database catalog;design tradeoffs;relational database workload analyzer;run-time behavior;structured query language;views;Data analysis;Database systems;Delay;Hardware;Image databases;Production systems;Relational databases;Runtime;Software design;Transaction databases},
+  Owner                    = {jthalbert},
+  Timestamp                = {2014.06.03}
+}
+
+@InProceedings{,
+  Title                    = {Cloud Versus In-house Cluster: Evaluating Amazon Cluster Compute Instances for Running MPI Applications},
+  Author                   = {Yan Zhai and Mingliang Liu and Jidong Zhai},
+  Year                     = {2011},
+
+  Abstract                 = {1. INTRODUCTION
+The emergence of cloud services brings new possibilities for Cloud computing platforms have gained significant popu-
+},
+  File                     = {:sc11.pdf:PDF},
+  Review                   = {Cloud Versus In-house Cluster: Evaluating Amazon
+Cluster Compute Instances for Running MPI Applications
+
+Yan Zhai, Mingliang Liu, Jidong Zhai
+Department of Computer Science and Technology, Tsinghua university
+
+{zhaiyan920,liuml07,zhaijidong}@gmail.com
+Xiaosong Ma Wenguang Chen
+
+Department of Computer Department of Computer
+Science, North Carolina State Science and Technology,
+University; CSMD, Oak Ridge Tsinghua university
+
+National Laboratory cwg@tsinghua.edu.cn
+ma@csc.ncsu.edu
+
+ABSTRACT 1. INTRODUCTION
+The emergence of cloud services brings new possibilities for Cloud computing platforms have gained significant popu-
+
+constructing and using HPC platforms. However, while larity in the past several years, especially among small busi-
+
+cloud services provide the flexibility and convenience of cus- nesses who view cloud services a flexible, powerful, conve-
+
+tomized, pay-as-you-go parallel computing, multiple previ- nient, and cost-effective alternative to owning and manag-
+
+ous studies in the past three years have indicated that cloud- ing their own computing infrastructure. In the HPC (High
+
+based clusters need a significant performance boost to be- Performance Computing) community, on the other hand,
+
+come a competitive choice, especially for tightly coupled par- a similar trend of paradigm shift has not yet established.
+
+allel applications. While IaaS (Infrastructure as a Service) clouds easily enable
+
+In this work, we examine the feasibility of running HPC users to acquire a set of nodes and set up a virtual cluster,
+
+applications in clouds. This study distinguishes itself from supercomputers (mainly located in large research laborato-
+
+existing investigations in several ways: 1) We carry out a ries, supercomputing centers, and universities) and small- to
+
+comprehensive examination of issues relevant to the HPC medium-sized “local” clusters continue to be the overwhelm-
+
+community, including performance, cost, user experience, ing mainstream platforms for parallel program developers
+
+and range of user activities. 2) We compare an Amazon and users.
+
+EC2-based platform built upon its newly available HPC- There have been several studies to evaluate the promise of
+
+oriented virtual machines with typical local cluster and su- cloud platforms for HPC users since 2008 [10,12,14,19–21,26,
+
+percomputer options, using benchmarks and applications 30,34,38]. The consensus reached appears to be that cloud-
+
+with scale and problem size unprecedented in previous cloud based clusters need a significant (an-order-of-magnitude or
+
+HPC studies. 3) We perform detailed performance and more) performance improvement to become a competitive
+
+scalability analysis to locate the chief limiting factors of choice for MPI-style parallel applications. However, such
+
+the state-of-the-art cloud based clusters. 4) We present a results were obtained before Amazon EC2, the leading IaaS
+
+case study on the impact of per-application parallel I/O provider and the most evaluated cloud platform, released
+
+system configuration uniquely enabled by cloud services. cluster compute instances (CCIs) in July 2010 [2, 13]. The
+
+Our results reveal that though the scalability of EC2-based CCI platform was designed to explicitly target HPC ap-
+
+virtual clusters still lags behind traditional HPC alterna- plications with dedicated physical node allocation, pow-
+
+tives, they are rapidly gaining in overall performance and erful CPUs, and improved interconnection. With a test
+
+cost-effectiveness, making them feasible candidates for per- conducted by Lawrence Berkeley National Laboratory re-
+
+forming tightly coupled scientific computing. In addition, searchers, a 7040-core run placed Amazon CCIs at the 231st
+
+our detailed benchmarking and profiling discloses and ana- on the most recent Top500 [35] list (November 2010).
+
+lyzes several problems regarding the performance and per- Does this change the landscape of running tightly coupled
+
+formance stability on EC2. parallel applications on clouds? The answer is not obvious,
+as it is well known that Linpack numbers do not translate
+into application performance, which depends on the compo-
+sition and pattern of computation, communication, and I/O
+within each individual parallel application.
+
+Besides performance, there are many more factors in-
+Copyright is held by the author/owner(s). Permission to make digital or volved in HPC users’ choice of platforms. Examples include
+hard copies of all or part of this work for personal or classroom use is cost, performance stability, ease of management and job sub-
+granted without fee provided that copies are not made or distributed for
+profit or commercial advantage and that copies bear this notice and the full mission, capability of interactive job execution, instant re-
+
+citation on the first page. To copy otherwise, to republish, to post on servers configuration of clusters, performance isolation between con-
+or to redistribute to lists, requires prior specific permission and/or a fee. currently running jobs, and the impact of root level access
+SC’11, November 12-18, 2011, Seattle, Washington, USA in HPC related research and development activities. These
+2011 ACM 978-1-4503-0771-0/11/11 ...$10.00.
+
+}
+}
+
+@InProceedings{Zhang2011,
+  Title                    = {Characterizing Task Usage Shapes in Google’s Compute Clusters},
+  Author                   = {Qi Zhang and Joseph L. Hellerstein and Raouf Boutaba and University of Waterloo and Google Inc. University and of Waterloo},
+  Year                     = {2011},
+
+  Abstract                 = {The increase in scale and complexity of large compute clus-
+ters motivates a need for representative workload bench-
+marks to evaluate the performance impact of system changes,
+so as to assist in designing better scheduling algorithms and
+in carrying out management activities. To achieve this goal,
+it is necessary to construct workload characterizations from Figure 1: A Compute Cluster Benchmark
+},
+  File                     = {:Zhang2011.pdf:PDF},
+  Review                   = {Characterizing Task Usage Shapes in Google’s Compute
+Clusters
+
+Qi Zhang Joseph L. Hellerstein Raouf Boutaba
+University of Waterloo Google Inc. University of Waterloo
+
+q8zhang@uwaterloo.ca jlh@google.com rboutaba@uwaterloo.ca
+
+ABSTRACT
+The increase in scale and complexity of large compute clus-
+ters motivates a need for representative workload bench-
+marks to evaluate the performance impact of system changes,
+so as to assist in designing better scheduling algorithms and
+in carrying out management activities. To achieve this goal,
+it is necessary to construct workload characterizations from Figure 1: A Compute Cluster Benchmark
+
+which realistic performance benchmarks can be created. In
+this paper, we focus on characterizing run-time task resource
+usage for CPU, memory and disk. The goal is to find an
+
+a challenging goal, as it requires a careful understanding
+accurate characterization that can faithfully reproduce the
+
+of application performance requirements and resource con-
+performance of historical workload traces in terms of key
+
+sumption characteristics.
+performance metrics, such as task wait time and machine
+
+Traditionally, Google relies on performance benchmarks of
+resource utilization. Through experiments using workload
+
+compute clusters to quantify the effect of system changes,
+traces from Google production clusters, we find that simply
+
+such as the introduction of new task scheduling algorithms,
+using the mean of task usage can generate synthetic work-
+
+capacity upgrading, and change in application source code.
+load traces that accurately reproduce resource utilizations
+
+As shown in Figure 1, a performance benchmark consists
+and task waiting time. This seemingly surprising result can
+
+of one or more workload generators that generate synthetic
+be justified by the fact that resource usage for CPU, mem-
+
+tasks scheduled on serving machines. In all of the aforemen-
+ory and disk are relatively stable over time for the majority
+
+tioned scenarios, using historical workload traces can accu-
+of the tasks. Our work not only presents a simple tech-
+
+rately determine the impact of changes to minimize the risk
+nique for constructing realistic workload benchmarks, but
+
+of performance regressions. However, this approach does not
+also provides insights into understanding workload perfor-
+
+allow answering what-if questions about scaling workload or
+mance in production compute clusters.
+
+other scenarios that have not been observed previously.
+To address this limitation, it is necessary to develop work-
+
+1. INTRODUCTION load characterization models. We use the term task usage
+Cloud computing promises to deliver highly scalable, re- shape as a statistical model that describes run-time task re-
+
+liable and cost-efficient platforms for hosting enterprise ap- source consumption (CPU, memory, disk, etc.). Our goal
+
+plications and services. However, the rapid increase in scale, is develop an accurate characterization of task usage shapes
+
+diversity and sophistication of cloud-based applications and that is sufficiently accurate for producing synthetic work-
+
+infrastructures in recent years has also brought consider- load benchmarks. The key performance metrics we are in-
+
+able management complexities. Google’s cloud backend con- terested in are the average task wait time and machine re-
+
+sists of hundreds of compute clusters, each of which con- source utilization for CPU, memory and disk in each clus-
+
+tains thousands of machines that host hundreds of thou- ter. Task wait time is important because it is a common
+
+sands of tasks, delivering a multitude of services including concern of cloud users. As the workload typically contains
+
+web search, web hosting, video streaming, as well as data many long-running batch tasks that may alternate between
+
+intensive applications such as web crawling and data min- waiting (this also includes the case of rescheduling due to
+
+ing. Supporting such a large-scale and diverse workload is preemption or machine failure) and running state, the to-
+tal wait time experienced by each task is a main objective
+to be minimized. Similarly, machine resource utilization is
+important as it is a common objective of cloud operators to
+
+Permission to make digital or hard copies of all or part of this work for maintain high resource utilization.
+personal or classroom use is granted without fee provided that copies are In this paper, we present a characterization of task usage
+not made or distributed for profit or commercial advantage and that copies shape that accurately reproduces performance characteris-
+bear this notice and the full citation on the first page. To copy otherwise, to tics of historical traces, in terms of average task wait time
+republish, to post on servers or to redistribute to lists, requires prior specific
+p and machine resource utilization. Through experiments us-ermission and/or a fee. This article was presented at:
+Large Scale Distributed Systems and Middleware Workshop, LADIS 2011 ing real workload traces from Google production clusters, we.
+Copyright 2011 find that simply modeling the task mean usage can achieve.
+
+}
+}
+
+@comment{jabref-meta: psDirectory:/home/jthalbert/Documents/papers;}
+
+@comment{jabref-meta: fileDirectory:/home/jthalbert/Documents/papers;}
+
+@comment{jabref-meta: fileDirectory-jthalbert-spark:/home/jthalbert/Do
+cuments/papers;}
+
+@comment{jabref-meta: pdfDirectory:/home/jthalbert/Documents/papers;}
+
